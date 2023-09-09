@@ -1,0 +1,51 @@
+.resumo-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1); /* Tom claro de preto */
+    max-width: 1000px;
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 50px 20px; /* Espaçamento ajustado */
+    color: white; /* Cor do texto */
+  
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify; /* Texto justificado */
+  }
+  
+  .resumo-sobre-mim h2 {
+    font-size: 24px;
+    margin-bottom: 5px; /* Espaçamento menor abaixo do título */
+  }
+  
+  .resumo-sobre-mim p {
+    margin-bottom: 15px;
+  }
+  
+  .Titulo {
+    font-style: italic; /* Texto em itálico */
+    text-align: center; /* Alinhamento centralizado */
+    margin-top: 10px; /* Ajuste a margem conforme necessário */
+  }
+  
+  @keyframes codeAnimation {
+    from {
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+  
+  .conteudo-container {
+    padding: 20px;
+    animation: codeAnimation 2s ease-in-out; /* Aplica a animação */
+    overflow: hidden; /* Impede que o texto apareça antes da animação */
+  }
+  
+
+  

@@ -1,0 +1,46 @@
+.Portifolio-content {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0px;
+  padding: auto;
+  text-align: center;
+  padding-top: 0; /* Remova o espaçamento superior */
+}
+
+/* Estilos para o carrossel */
+.carousel-root {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  margin-top: --150; /* Ajuste a margem superior para um valor negativo menor */
+}
+
+.carousel .slider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.carousel .slider {
+  width: 100%;
+  max-height: 50vh;
+  margin-top: 10px;
+
+}
+
+/* Estilo para as imagens dentro do carrossel */
+.carousel .slider .slide img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+
+}
+
+.paragrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Tornar o componente de texto em tela cheia */
+  text-align: center;
+}
+
